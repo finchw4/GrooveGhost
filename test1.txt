@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-aaaaaaaaaaaaaaaaaaaaaaaaaa
-=======
-;lakjfd
->>>>>>> e29bbe5a1ee93adf4530656d37412a16b59e4001
+aa
