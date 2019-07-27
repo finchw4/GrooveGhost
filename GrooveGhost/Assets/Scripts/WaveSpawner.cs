@@ -31,7 +31,19 @@ public class WaveSpawner : MonoBehaviour
             if (state != SpawnState.SPAWNING)
             {
                 //spawns
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                StartCoroutine(SpawnWave);
+=======
                 StartCoroutine(SpawnWave)
+>>>>>>> parent of 94acd9a... put player on field
+=======
+                StartCoroutine(SpawnWave)
+>>>>>>> parent of 94acd9a... put player on field
+=======
+                StartCoroutine(SpawnWave)
+>>>>>>> parent of 94acd9a... put player on field
             }
         }
         else
@@ -44,7 +56,19 @@ public class WaveSpawner : MonoBehaviour
         state = SpawnState.SPAWNING;
         //spawn
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        state = SpawnState.WAITING;
+=======
         SpawnState.WAITING;
+>>>>>>> parent of 94acd9a... put player on field
+=======
+        SpawnState.WAITING;
+>>>>>>> parent of 94acd9a... put player on field
+=======
+        SpawnState.WAITING;
+>>>>>>> parent of 94acd9a... put player on field
 
         yield break;
     }
