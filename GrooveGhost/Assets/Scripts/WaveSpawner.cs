@@ -31,7 +31,7 @@ public class WaveSpawner : MonoBehaviour
             if (state != SpawnState.SPAWNING)
             {
                 //spawns
-                StartCoroutine(SpawnWave)
+                StartCoroutine(SpawnWave(waves[nextWave]));
             }
         }
         else
@@ -44,7 +44,7 @@ public class WaveSpawner : MonoBehaviour
         state = SpawnState.SPAWNING;
         //spawn
 
-        SpawnState.WAITING;
+        state = SpawnState.WAITING;
 
         yield break;
     }
