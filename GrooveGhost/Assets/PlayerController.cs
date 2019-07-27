@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             rbd.velocity = new Vector2(0, 0);
+
         }
     }
 }
